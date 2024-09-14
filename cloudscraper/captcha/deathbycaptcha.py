@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 
 import json
-import requests
+from curl_cffi import requests
 try:
     from urlparse import urlparse
 except ImportError:

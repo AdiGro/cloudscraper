@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-import requests
+from curl_cffi import requests
 import cloudscraper
 import cloudscraper.help as helper
 

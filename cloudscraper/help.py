@@ -1,6 +1,6 @@
 import json
 import platform
-import requests
+from curl_cffi import requests
 import ssl
 import sys
 import urllib3
